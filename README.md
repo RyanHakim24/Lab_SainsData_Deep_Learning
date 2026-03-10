@@ -132,13 +132,12 @@ mlflow>=2.9.0
 | 3 | 5 | Framework: PyTorch & TensorFlow | ⭐⭐ | 🔴 | - |
 | 4 | 6 | Feedforward Neural Network (FNN) | ⭐⭐ | 🔴 | - |
 | 5 | 7 | Convolutional Neural Network (CNN) | ⭐⭐⭐ | 🔴 | - |
-| 6 | 8 | **UTS Praktikum** | — | 🔴 | - |
-| 7 | 9 | Recurrent Neural Network (RNN/LSTM/GRU) | ⭐⭐⭐ | 🔴 | - |
-| 8 | 10 | NLP dengan Deep Learning | ⭐⭐⭐ | 🔴 | - |
-| 9 | 11 | Attention & Transformer | ⭐⭐⭐⭐ | 🔴 | - |
-| 10 | 12 | Generative Model (VAE & GAN) | ⭐⭐⭐⭐ | 🔴 | - |
-| 11 | 13 | Object Detection & Segmentation | ⭐⭐⭐⭐ | 🔴 | - |
-| 12 | 14 | Advanced Topics (Diffusion / GNN / RL) | ⭐⭐⭐⭐⭐ | 🔴 | - |
+| 6 | 8 | Recurrent Neural Network (RNN/LSTM/GRU) | ⭐⭐⭐ | 🔴 | - |
+| 7 | 9 | NLP dengan Deep Learning | ⭐⭐⭐ | 🔴 | - |
+| 8 | 10 | Attention & Transformer | ⭐⭐⭐⭐ | 🔴 | - |
+| 9 | 11 | Generative Model (VAE & GAN) | ⭐⭐⭐⭐ | 🔴 | - |
+| 10 | 12 | Object Detection & Segmentation | ⭐⭐⭐⭐ | 🔴 | - |
+| 11 | 13 | Advanced Topics (Diffusion / GNN / RL) | ⭐⭐⭐⭐⭐ | 🔴 | - |
 
 > 🟢 Selesai &nbsp; 🟡 Sedang Berlangsung &nbsp; 🔴 Belum Dimulai
 

@@ -123,18 +123,18 @@ mlflow>=2.9.0
 ## Jadwal Praktikum
 
 | Pertemuan | Minggu | Topik | Status | Link Modul |
-|:---------:|:------:|-------| ------:|:---:|
+|:---------:|:------:|-------| :------:|:---:|
 | 1 | 3 | Introduction to PyTorch | 🟢 | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/7919a2afb576763e5888f2b5cdd453a8c1679466/Modul/Praktikum%201%20-%20Pengenalan%20Pytorch.pdf) |
 | 2 | 4 | Autograd and Gradient Optimization | 🟡 | - |
-| 3 | 5 | Framework: PyTorch & TensorFlow | 🔴 | - |
-| 4 | 6 | Feedforward Neural Network (FNN) | 🔴 | - |
-| 5 | 7 | Convolutional Neural Network (CNN) | 🔴 | - |
-| 6 | 8 | Recurrent Neural Network (RNN/LSTM/GRU) | 🔴 | - |
-| 7 | 9 | NLP dengan Deep Learning | 🔴 | - |
-| 8 | 10 | Attention & Transformer | 🔴 | - |
-| 9 | 11 | Generative Model (VAE & GAN) | 🔴 | - |
-| 10 | 12 | Object Detection & Segmentation | 🔴 | - |
-| 11 | 13 | Advanced Topics (Diffusion / GNN / RL) | 🔴 | - |
+| 3 | 5 | - | 🔴 | - |
+| 4 | 6 | - | 🔴 | - |
+| 5 | 7 | - | 🔴 | - |
+| 6 | 8 | - | 🔴 | - |
+| 7 | 9 | - | 🔴 | - |
+| 8 | 10 | - | 🔴 | - |
+| 9 | 11 | - | 🔴 | - |
+| 10 | 12 | - | 🔴 | - |
+| 11 | 13 | - | 🔴 | - |
 
 > 🟢 Selesai &nbsp; 🟡 Sedang Berlangsung &nbsp; 🔴 Belum Dimulai
 

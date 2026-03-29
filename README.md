@@ -69,9 +69,6 @@ Cukup buka notebook di Colab dan jalankan cell pertama:
 
 ```python
 # Cell 1 - Setup (jalankan di awal setiap sesi)
-!git clone https://github.com/[username]/praktikum-deep-learning.git
-%cd praktikum-deep-learning
-!pip install -q -r requirements.txt
 
 import torch
 print(f"PyTorch: {torch.__version__} | GPU: {torch.cuda.get_device_name(0)}")
@@ -125,19 +122,19 @@ mlflow>=2.9.0
 
 ## Jadwal Praktikum
 
-| Pertemuan | Minggu | Topik | Difficulty | Status | Link Modul |
-|:---------:|:------:|-------|:----------:|:------:|:---:|
-| 1 | 3 | Python Review & NumPy untuk Deep Learning | ⭐ | 🟡 | - |
-| 2 | 4 | Perceptron & Neural Network dari Scratch | ⭐⭐ | 🔴 | - |
-| 3 | 5 | Framework: PyTorch & TensorFlow | ⭐⭐ | 🔴 | - |
-| 4 | 6 | Feedforward Neural Network (FNN) | ⭐⭐ | 🔴 | - |
-| 5 | 7 | Convolutional Neural Network (CNN) | ⭐⭐⭐ | 🔴 | - |
-| 6 | 8 | Recurrent Neural Network (RNN/LSTM/GRU) | ⭐⭐⭐ | 🔴 | - |
-| 7 | 9 | NLP dengan Deep Learning | ⭐⭐⭐ | 🔴 | - |
-| 8 | 10 | Attention & Transformer | ⭐⭐⭐⭐ | 🔴 | - |
-| 9 | 11 | Generative Model (VAE & GAN) | ⭐⭐⭐⭐ | 🔴 | - |
-| 10 | 12 | Object Detection & Segmentation | ⭐⭐⭐⭐ | 🔴 | - |
-| 11 | 13 | Advanced Topics (Diffusion / GNN / RL) | ⭐⭐⭐⭐⭐ | 🔴 | - |
+| Pertemuan | Minggu | Topik | Status | Link Modul |
+|:---------:|:------:|-------| ------:|:---:|
+| 1 | 3 | Introduction to PyTorch | 🟢 | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/7919a2afb576763e5888f2b5cdd453a8c1679466/Modul/Praktikum%201%20-%20Pengenalan%20Pytorch.pdf) |
+| 2 | 4 | Autograd and Gradient Optimization | 🟡 | - |
+| 3 | 5 | Framework: PyTorch & TensorFlow | 🔴 | - |
+| 4 | 6 | Feedforward Neural Network (FNN) | 🔴 | - |
+| 5 | 7 | Convolutional Neural Network (CNN) | 🔴 | - |
+| 6 | 8 | Recurrent Neural Network (RNN/LSTM/GRU) | 🔴 | - |
+| 7 | 9 | NLP dengan Deep Learning | 🔴 | - |
+| 8 | 10 | Attention & Transformer | 🔴 | - |
+| 9 | 11 | Generative Model (VAE & GAN) | 🔴 | - |
+| 10 | 12 | Object Detection & Segmentation | 🔴 | - |
+| 11 | 13 | Advanced Topics (Diffusion / GNN / RL) | 🔴 | - |
 
 > 🟢 Selesai &nbsp; 🟡 Sedang Berlangsung &nbsp; 🔴 Belum Dimulai
 
@@ -146,283 +143,20 @@ mlflow>=2.9.0
 ## Daftar Modul
 
 <details>
-<summary><b>📂 Modul 01 — Python Review & NumPy untuk Deep Learning</b></summary>
+<summary><b>📂 Modul 01 — Introduction to PyTorch</b></summary>
 
 ### Topik
-- Python OOP review (class, inheritance, magic methods)
-- NumPy: array operations, broadcasting, vectorization
-- Visualisasi data dengan Matplotlib
-- Konsep tensor dan operasi tensor
-
-### Learning Objectives
-- Mahasiswa mampu melakukan operasi tensor secara efisien
-- Mahasiswa memahami konsep broadcasting dan vectorization
-- Mahasiswa siap menggunakan framework deep learning
-
-### Tugas
-Implementasi operasi matriks untuk forward pass neural network menggunakan NumPy murni
-
+- Membuat tensor dari berbagai sumber
+- Operasi tensor
+- Indexing dan Slicing pada tensor
+- Tensor pada GPU
 </details>
 
 <details>
-<summary><b>📂 Modul 02 — Perceptron & Neural Network dari Scratch</b></summary>
+<summary><b>📂 Modul 02 — Autograd and Gradient Optimization</b></summary>
 
 ### Topik
-- Perceptron: model, learning rule, convergence
-- Activation functions (Sigmoid, Tanh, ReLU, Softmax)
-- Multi-Layer Perceptron (MLP)
-- Backpropagation algorithm dari scratch
-- Gradient descent variants
-
-### Learning Objectives
-- Mahasiswa memahami mekanisme forward & backward pass
-- Mahasiswa mampu mengimplementasikan backpropagation tanpa framework
-
-### Key Equations
-
-$$\hat{y} = \sigma(W^{[L]} \cdot a^{[L-1]} + b^{[L]})$$
-
-$$\frac{\partial \mathcal{L}}{\partial W^{[l]}} = \frac{\partial \mathcal{L}}{\partial z^{[l]}} \cdot (a^{[l-1]})^T$$
-
-### Tugas
-Implementasi MLP dari scratch untuk klasifikasi dataset XOR dan MNIST
-
-📁 [`02-perceptron-dan-neural-network-dasar/`](./02-perceptron-dan-neural-network-dasar/)
-</details>
-
-<details>
-<summary><b>📂 Modul 03 — Framework: PyTorch & TensorFlow</b></summary>
-
-### Topik
-- PyTorch: Tensor, Autograd, nn.Module, DataLoader
-- TensorFlow/Keras: tf.Tensor, GradientTape, Sequential/Functional API
-- Custom Dataset & DataLoader
-- Training loop best practices
-- Model saving & loading
-
-### Learning Objectives
-- Mahasiswa mampu membangun model dengan PyTorch dan TensorFlow
-- Mahasiswa memahami automatic differentiation
-
-### Tugas
-Re-implementasi MLP Modul 02 menggunakan PyTorch dan TensorFlow
-
-📁 [`03-framework-pytorch-tensorflow/`](./03-framework-pytorch-tensorflow/)
-</details>
-
-<details>
-<summary><b>📂 Modul 04 — Feedforward Neural Network (FNN)</b></summary>
-
-### Topik
-- Arsitektur FNN untuk klasifikasi & regresi
-- Loss functions (Cross-Entropy, MSE, Huber)
-- Optimizers (SGD, Adam, RMSprop, AdamW)
-- Regularization (Dropout, L1/L2, Batch Normalization)
-- Learning rate scheduling
-- Hyperparameter tuning
-
-### Learning Objectives
-- Mahasiswa mampu merancang dan melatih FNN secara end-to-end
-- Mahasiswa memahami overfitting dan teknik regularisasi
-
-### Tugas
-Klasifikasi tabular dataset (Fashion-MNIST / custom dataset) dengan FNN + eksperimen hyperparameter
-
-📁 [`04-feedforward-neural-network/`](./04-feedforward-neural-network/)
-</details>
-
-<details>
-<summary><b>📂 Modul 05 — Convolutional Neural Network (CNN)</b></summary>
-
-### Topik
-- Operasi konvolusi dan pooling
-- Arsitektur CNN klasik: LeNet, AlexNet, VGG, ResNet
-- Transfer learning & fine-tuning
-- Data augmentation
-- Visualisasi: feature maps, Grad-CAM
-- Evaluasi: confusion matrix, precision, recall, F1
-
-### Key Architecture
-
-```
-Input → [Conv → BN → ReLU → Pool] × N → Flatten → [FC → Dropout] × M → Output
-```
-
-### Learning Objectives
-- Mahasiswa mampu membangun dan melatih CNN untuk image classification
-- Mahasiswa mampu menggunakan pretrained model untuk transfer learning
-
-### Tugas
-Image classification pada dataset CIFAR-10 / custom dataset dengan CNN + transfer learning (ResNet/EfficientNet)
-
-📁 [`05-convolutional-neural-network/`](./05-convolutional-neural-network/)
-</details>
-
-<details>
-<summary><b>📂 Modul 06 — Recurrent Neural Network (RNN/LSTM/GRU)</b></summary>
-
-### Topik
-- Sequential data dan konsep recurrence
-- Vanilla RNN dan masalah vanishing gradient
-- LSTM (Long Short-Term Memory)
-- GRU (Gated Recurrent Unit)
-- Bidirectional RNN
-- Sequence-to-sequence model
-- Time series forecasting
-
-### Key Architecture
-
-$$h_t = \tanh(W_{hh} h_{t-1} + W_{xh} x_t + b_h)$$
-
-$$f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f) \quad \text{(LSTM forget gate)}$$
-
-### Learning Objectives
-- Mahasiswa memahami arsitektur recurrent dan gating mechanism
-- Mahasiswa mampu menerapkan RNN/LSTM untuk data sekuensial
-
-### Tugas
-Time series forecasting (stock price / weather) dan text generation dengan LSTM
-
-📁 [`06-recurrent-neural-network/`](./06-recurrent-neural-network/)
-</details>
-
-<details>
-<summary><b>📂 Modul 07 — NLP dengan Deep Learning</b></summary>
-
-### Topik
-- Text preprocessing (tokenization, padding, vocabulary)
-- Word Embeddings (Word2Vec, GloVe, FastText)
-- Sentiment Analysis dengan LSTM/GRU
-- Text Classification
-- Sequence Labeling (NER)
-
-### Learning Objectives
-- Mahasiswa mampu memproses data teks untuk deep learning
-- Mahasiswa mampu membangun model NLP berbasis deep learning
-
-### Tugas
-Sentiment analysis pada dataset review (IMDb / Indonesian tweets) menggunakan LSTM + pre-trained embeddings
-
-📁 [`07-natural-language-processing/`](./07-natural-language-processing/)
-</details>
-
-<details>
-<summary><b>📂 Modul 08 — Attention & Transformer</b></summary>
-
-### Topik
-- Attention mechanism (Bahdanau, Luong)
-- Self-attention dan multi-head attention
-- Transformer architecture (encoder-decoder)
-- Positional encoding
-- BERT, GPT overview
-- Fine-tuning pretrained transformers (HuggingFace)
-
-### Key Equation
-
-$$\operatorname{Attention}(Q, K, V) = \operatorname{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
-
-### Learning Objectives
-- Mahasiswa memahami mekanisme attention dan arsitektur transformer
-- Mahasiswa mampu menggunakan pretrained transformer dari HuggingFace
-
-### Tugas
-Text classification menggunakan fine-tuned BERT / GPT-2 text generation
-
-📁 [`08-attention-dan-transformer/`](./08-attention-dan-transformer/)
-</details>
-
-<details>
-<summary><b>📂 Modul 09 — Generative Model (VAE & GAN)</b></summary>
-
-### Topik
-- Autoencoder dan Variational Autoencoder (VAE)
-- Generative Adversarial Network (GAN)
-- DCGAN, Conditional GAN
-- Training stability dan tips
-- Evaluation metrics (FID, IS)
-
-### Key Concept
-
-$$\min_G \max_D \; \mathbb{E}_{x \sim p_{data}}[\log D(x)] + \mathbb{E}_{z \sim p_z}[\log(1 - D(G(z)))]$$
-
-### Learning Objectives
-- Mahasiswa memahami konsep generative modeling
-- Mahasiswa mampu melatih VAE dan GAN untuk image generation
-
-### Tugas
-Generate handwritten digits (MNIST) atau anime faces menggunakan DCGAN
-
-📁 [`09-generative-model/`](./09-generative-model/)
-</details>
-
-<details>
-<summary><b>📂 Modul 10 — Object Detection & Segmentation</b></summary>
-
-### Topik
-- Object detection: YOLO, SSD, Faster R-CNN
-- Semantic segmentation: FCN, U-Net
-- Instance segmentation: Mask R-CNN
-- Evaluation: mAP, IoU, Dice coefficient
-- Custom dataset annotation (LabelImg, Roboflow)
-
-### Learning Objectives
-- Mahasiswa mampu melakukan object detection dan segmentation
-- Mahasiswa mampu melatih model pada custom dataset
-
-### Tugas
-Object detection pada custom dataset menggunakan YOLOv8 + U-Net semantic segmentation
-
-📁 [`10-object-detection-dan-segmentation/`](./10-object-detection-dan-segmentation/)
-</details>
-
-<details>
-<summary><b>📂 Modul 11 — Advanced Topics</b></summary>
-
-### Topik (pilih salah satu atau lebih)
-- Diffusion Models (DDPM, Stable Diffusion)
-- Graph Neural Networks (GCN, GAT)
-- Deep Reinforcement Learning (DQN, PPO)
-- Speech Recognition & TTS
-- Self-Supervised Learning
-- Model Deployment (ONNX, TensorRT, Edge devices)
-
-### Learning Objectives
-- Mahasiswa memahami perkembangan terkini di bidang deep learning
-- Mahasiswa mampu mengeksplorasi topik advanced secara mandiri
-
-### Tugas
-Literature review + mini-implementation pada salah satu topik advanced
-
-📁 [`11-advanced-topics/`](./11-advanced-topics/)
-</details>
-
-<details>
-<summary><b>📂 Modul 12 — Proyek Akhir</b></summary>
-
-### Deskripsi
-Proyek kelompok (2-3 orang) yang mengintegrasikan konsep deep learning untuk menyelesaikan permasalahan nyata.
-
-### Contoh Topik Proyek
-| No | Topik | Domain |
-|----|-------|--------|
-| 1 | Real-time Face Mask Detection | Computer Vision |
-| 2 | Indonesian Sentiment Analysis | NLP |
-| 3 | Music Genre Classification | Audio |
-| 4 | Medical Image Segmentation | Healthcare |
-| 5 | Chatbot with Transformer | NLP |
-| 6 | Image Super Resolution | Computer Vision |
-| 7 | Deepfake Detection | Security |
-| 8 | Sign Language Recognition | Accessibility |
-| 9 | AI-powered Image Captioning | Multimodal |
-| 10 | Stock Price Prediction | Finance |
-
-### Deliverables
-- Source code + trained model
-- Laporan teknis (format paper IEEE)
-- Presentasi & live demo
-- GitHub repository yang rapi
-
-📁 [`12-proyek-akhir/`](./12-proyek-akhir/)
+- 
 </details>
 
 ---

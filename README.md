@@ -125,7 +125,7 @@ mlflow>=2.9.0
 | Pertemuan | Minggu | Topik | Status | Link Modul |
 |:---------:|:------:|-------| :------:|:---:|
 | 1 | 3 | Introduction to PyTorch | 🟢 | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/7919a2afb576763e5888f2b5cdd453a8c1679466/Modul/Praktikum%201%20-%20Pengenalan%20Pytorch.pdf) |
-| 2 | 4 | Autograd and Gradient Optimization | 🟡 | - |
+| 2 | 4 | Autograd and Gradient Optimization | 🟡 | [here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/15f93395fa421d2477f5b8e9e97ab08e7921ede6/Modul/Praktikum%202%20-%20Autograd%20dan%20Optimasi%20Gradient.pdf) |
 | 3 | 5 | - | 🔴 | - |
 | 4 | 6 | - | 🔴 | - |
 | 5 | 7 | - | 🔴 | - |

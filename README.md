@@ -125,8 +125,8 @@ mlflow>=2.9.0
 | Pertemuan | Minggu | Topik | Status | Link Modul |
 |:---------:|:------:|-------| :------:|:---:|
 | 1 | 3 | Introduction to PyTorch | 🟢 | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/7919a2afb576763e5888f2b5cdd453a8c1679466/Modul/Praktikum%201%20-%20Pengenalan%20Pytorch.pdf) |
-| 2 | 4 | Autograd and Gradient Optimization | 🟡 | [here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/ab404d3d6fcab275f373079bacafb1151d8d4b73/Modul/Praktikum%202%20-%20Autograd%20dan%20Optimasi%20Gradient.pdf) |
-| 3 | 5 | - | 🔴 | - |
+| 2 | 4 | Autograd and Gradient Optimization | 🟢 | [here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/ab404d3d6fcab275f373079bacafb1151d8d4b73/Modul/Praktikum%202%20-%20Autograd%20dan%20Optimasi%20Gradient.pdf) |
+| 3 | 5 | Artificial Neural Network | 🟡 | - |
 | 4 | 6 | - | 🔴 | - |
 | 5 | 7 | - | 🔴 | - |
 | 6 | 8 | - | 🔴 | - |
@@ -156,7 +156,23 @@ mlflow>=2.9.0
 <summary><b>📂 Modul 02 — Autograd and Gradient Optimization</b></summary>
 
 ### Topik
-- 
+- Pendahuluan Autograd dan optimasi Gradient
+- Autograd Dasar
+
+  a. Gradient otomatis (Autograd)
+  
+  b. Gradient pada vektor
+  
+  c. Detach dan no grad
+  
+  d. Akumulasi gradient dan reset
+  
+  e. Turunan orde tinggi
+
+- Visualisasi Computational Graph
+- Implementasi Gradient Descent Manual
+- Menggunakan PyTorch Optimizer
+
 </details>
 
 ---

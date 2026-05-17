@@ -181,13 +181,13 @@ mlflow>=2.9.0
 
 | No | Topik | Link Modul |
 |:--:|-----|:------------:|
-| 1 | PyTorch | [Here]() |
-| 2 | Artificial Neural Network | [Here]() |
-| 3 | Convolutional Neural Network | [Here]() |
-| 4 | Recurrent Neural Network | [Here]() |
-| 5 | Generative Adversarial Network | [Here]() |
-| 6 | Regularization | [Here]() |
-| 7 | Transfer Learning | [Here]() |
+| 1 | PyTorch | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/main/Modul%20Tambahan/01-PyTorch.pdf) |
+| 2 | Artificial Neural Network | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/main/Modul%20Tambahan/02-Artificial_Neural_Network.pdf) |
+| 3 | Convolutional Neural Network | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/main/Modul%20Tambahan/03-Convolutional_Neural_Network.pdf) |
+| 4 | Recurrent Neural Network | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/main/Modul%20Tambahan/04-Recurrent_Neural_Network.pdf) |
+| 5 | Generative Adversarial Network | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/main/Modul%20Tambahan/05-Generative_Adversarial_Network.pdf) |
+| 6 | Regularization | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/main/Modul%20Tambahan/06-Regularization.pdf) |
+| 7 | Transfer Learning | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/main/Modul%20Tambahan/07-Transfer_Learning.pdf) |
 
 ---
 

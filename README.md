@@ -127,7 +127,7 @@ mlflow>=2.9.0
 | 1 | 3 | Introduction to PyTorch | 🟢 | [Here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/7919a2afb576763e5888f2b5cdd453a8c1679466/Modul/Praktikum%201%20-%20Pengenalan%20Pytorch.pdf) |
 | 2 | 4 | Autograd and Gradient Optimization | 🟢 | [here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/ab404d3d6fcab275f373079bacafb1151d8d4b73/Modul/Praktikum%202%20-%20Autograd%20dan%20Optimasi%20Gradient.pdf) |
 | 3 | 5 | Artificial Neural Network | 🟢 | [here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/5983d1f38351f10aeb3b2bad00a85da29fb86332/Modul/Praktikum%203%20-%20Artificial%20Neural%20Network.pdf) |
-| 4 | 6 | - | 🔴 | - |
+| 4 | 6 | Convolutional Neural Network | 🟡 | - |
 | 5 | 7 | - | 🔴 | - |
 | 6 | 8 | - | 🔴 | - |
 | 7 | 9 | - | 🔴 | - |
@@ -174,6 +174,20 @@ mlflow>=2.9.0
 - Menggunakan PyTorch Optimizer
 
 </details>
+
+---
+
+### Daftar Modul Tambahan
+
+| No | Topik | Link Modul |
+|:--:|-----|:------------:|
+| 1 | PyTorch | [Here]() |
+| 2 | Artificial Neural Network | [Here]() |
+| 3 | Convolutional Neural Network | [Here]() |
+| 4 | Recurrent Neural Network | [Here]() |
+| 5 | Generative Adversarial Network | [Here]() |
+| 6 | Regularization | [Here]() |
+| 7 | Transfer Learning | [Here]() |
 
 ---
 

@@ -128,8 +128,8 @@ mlflow>=2.9.0
 | 2 | 4 | Autograd and Gradient Optimization | 🟢 | [here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/ab404d3d6fcab275f373079bacafb1151d8d4b73/Modul/Praktikum%202%20-%20Autograd%20dan%20Optimasi%20Gradient.pdf) |
 | 3 | 5 | Artificial Neural Network | 🟢 | [here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/5983d1f38351f10aeb3b2bad00a85da29fb86332/Modul/Praktikum%203%20-%20Artificial%20Neural%20Network.pdf) |
 | 4 | 6 | Convolutional Neural Network | 🟢 | [here](https://github.com/RyanHakim24/Lab_SainsData_Deep_Learning/blob/main/Modul/Praktikum%204%20-%20Convolutional%20Neural%20Network.pdf) |
-| 5 | 7 | Recurrent Neural Network | 🟡 | - |
-| 6 | 8 | - | 🔴 | - |
+| 5 | 7 | Recurrent Neural Network | 🟢 | - |
+| 6 | 8 | Generative Adversarial Network | 🟡 | - |
 | 7 | 9 | - | 🔴 | - |
 | 8 | 10 | - | 🔴 | - |
 | 9 | 11 | - | 🔴 | - |
